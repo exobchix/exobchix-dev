@@ -5,14 +5,54 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">Perfil</div>
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Ingeniero en Sistemas Computacionales con sólida experiencia en el desarrollo de software
+    y pasión por compartir conocimientos a través de la docencia. Con una trayectoria comprobada en el diseño,
+    implementación y mantenimiento de soluciones de software innovadoras,
+    estoy comprometido con la entrega de resultados de alta calidad y la mejora continua.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experiencia</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Programador Fullstack en AipiSoft (Freelance)"
+      subtitle="Desde Junio 2022 - Junio 2024 , Ciudad Valles, San Luis Potosí"
+    >
+      Desarrollo, implementación y mantenimiento de aplicaciones ERP y CRM, asegurando la correcta funcionalidad,
+      integración, personalización y actualización de las versiones de software según las necesidades del negocio.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Catedrático en UICSLP Tancanhuitz"
+      subtitle="Desde Febrero 2018 - Diciembre 2024 , Tancanhuitz, San Luis Potosí"
+    >
+      Catedrático de Matemáticas, Programación e Informática en las Carreras de Lic. En Informática Administrativa y Lic. En Derecho
+    </TimeLineElement>
+    <TimeLineElement
+      title="Profesor de Matemáticas"
+      subtitle="Desde Agosto 2017 a Diciembre 2017 en CBAC Narciso Mendoza, Tocoy, San Antonio, San Luis Potosí"
+    >
+      Docente  de Bachillerato impartiendo materias de mátemáticas, fisica y cálculo
+    </TimeLineElement>
+    <TimeLineElement
+      title="Programador Web (Frelance) en ODISEALABS"
+      subtitle="Desde Mayo 2017 a Junio 2022 en ODISEALABS, Ciudad Valles, San Luis Potosí"
+    >
+      Desarrollo de aplicaciones y sitios web a la medida de los clientes: aplicaciones para control de inventario, agenda, control escolar  y sitios web de eventos
+      utilizando tecnologías web.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Residencia Profesional y Tesis en GISAA"
+      subtitle="Desde Enero 2016 a Mayo 2017 en Instituto Tecnológico de Ciduad Valles, Ciudad Valles, San Luis Potosí"
+    >
+      Programador Fullstack encargado de desarrollar un LMS para la enseñanza de la lengua tének Ka Exla' utilizando tecnologías
+      como HTML, Bootstrap Css, JQuery, Ajax y PHP con Slim Framework
+    </TimeLineElement>
   </div>
 
   <div class="mb-5">
@@ -21,41 +61,16 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+        title="Ingeniería en Sistemas Computacionales"
+        subtitle="2011 a 2016 en el Instituto Tecnológico de Ciudad Valles, Ciudad Valles, San Luis Potosí"
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+        title="Capacitación de Informática"
+        subtitle="2008 a 2011 en Colegio de Bachilleres Plantel 09, Tanlajás, San Luis Potosí"
     />
   </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
-  </div>
-
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-  </div>
-
-  <div class="mb-5">
+  <!--<div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
@@ -66,27 +81,28 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>
       <a href="#" target="_blank"> Certification Name (with link)</a>
     </li>
-  </ul>
+  </ul>-->
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
+    <div class="text-3xl w-full font-bold">Habilidades</div>
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+    <li>Trabajo en equipo</li>
+    <li>Liderazgo</li>
+    <li>Adaptabilidad</li>
+    <li>Autodidacta</li>
+    <li>HTML, CSS Y JS</li>
+    <li>Java (Spring Boot)</li>
+    <li>PHP (Laravel)</li>
+    <li>Postgresql</li>
+    <li>Vue Js</li>
+    <li>Maria DB</li>
+    <li>Linux</li>
+    <li>Google Cloud</li>
+    <li>Astro</li>
+    <li>Microsoft 365</li>
+    <li>Node Js</li>
+    <li>Docker</li>
   </ul>
 </BaseLayout>
