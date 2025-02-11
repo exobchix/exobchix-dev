@@ -4,14 +4,14 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug"
 
-const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-
-const last_posts = posts.slice(0, 3);
+//
 ---
 
-<BaseLayout sideBarActiveItemID="home">
+<BaseLayout sideBarActiveItemID="home">const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  //
+  // const last_posts = posts.slice(0, 3);
   <div class="pb-12 mt-5">
-    <div class="text-xl py-1">Hola 👋</div>
+    <div class="text-xl py-1">Hola 🤖</div>
     <div class="text-5xl font-bold">Soy Hector Bautista</div>
     <div class="text-3xl py-3 font-bold">Desarrollador de Software & Profesor</div>
     <div class="py-2">
