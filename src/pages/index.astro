@@ -4,7 +4,9 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug"
 
-//
+const textiles_description = `Micrositio para el proyecto de investigación
+ Estrategias de recuperación y protección de saberes de origen textil:\n 
+ sus vínculos con el huasteco potosino, transformaciones y plagios culturales de tének y nahuas`;
 ---
 
 <BaseLayout sideBarActiveItemID="home">
@@ -29,6 +31,13 @@ import createSlug from "../lib/createSlug"
   </div>
 
 
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="UICSLP | Proyecto: Saberes Textiles"
+    img="/textiles-logo.png"
+    desc= {textiles_description}
+    url="https://saberestextiles.uicslp.edu.mx/"
+  />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Aipisoft | CoFac"
